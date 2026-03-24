@@ -185,4 +185,4 @@ It already includes the full engine stack, but it is still evolving. The next li
 
 ## License
 
-Choose the license that matches how you want the project used before publishing.
+N/A
