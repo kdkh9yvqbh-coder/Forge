@@ -52,7 +52,7 @@ It is closer to a cross-examiner than a ghostwriter.
 
 This repo currently centers on the standalone public release script:
 
-`forge_public_release_o1.py`
+`forge_o1_8_1.py`
 
 The release includes:
 
@@ -67,25 +67,25 @@ The release includes:
 Run the full demo:
 
 ```bash
-python forge_public_release_o1.py demo
+python forge_o1_8_1.py demo
 ```
 
 List domains and commands:
 
 ```bash
-python forge_public_release_o1.py list-domains
+python forge_o1_8_1.py list-domains
 ```
 
 Run the Autolift demo:
 
 ```bash
-python forge_public_release_o1.py autolift-demo
+python forge_o1_8_1.py autolift-demo
 ```
 
 Run the regex proof-domain demo:
 
 ```bash
-python forge_public_release_o1.py regex-domain-demo
+python forge_o1_8_1.py regex-domain-demo
 ```
 
 ## Python API
@@ -93,13 +93,13 @@ python forge_public_release_o1.py regex-domain-demo
 You can import the release file directly:
 
 ```python
-from forge_public_release_o1 import optimize, repair, harden, improve
+from forge_o1_8_1 import optimize, repair, harden, improve
 ```
 
 Example:
 
 ```python
-from forge_public_release_o1 import improve
+from forge_o1_8_1 import improve
 
 def count_positive(nums):
     total = 0
@@ -174,12 +174,12 @@ The simplest way to describe Forge is:
 
 Recommended starting points:
 
-- `forge_public_release_o1.py`
-- `forge_public_release_o1_report.md`
+- `forge_o1_8_1.py`
+- `forge_o1_8_1_report.md`
 
 ## Status
 
-Public release o1 is the first release-shaped build.
+The public release is the first release-shaped build.
 
 It already includes the full engine stack, but it is still evolving. The next likely work is packaging polish, repo structure cleanup, and stronger public-facing examples.
 
